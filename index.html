@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hover.css">
     <title>Music</title>
 </head>
 <body>
@@ -80,8 +82,50 @@
         </main>
     <!--/Main-->
 
+<section class="artistas">
+    <div class="container">
+        <h1 class="text-center">
+            Encuentra las diferente modalidades
+        </h1>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, dicta delectus beatae consequatur a ullam autem debitis illo, qui temporibus laudantium possimus magni aut pariatur quaerat voluptatibus magnam ex veritatis.</p>
+            <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <h2 class="letra">Playlist</h2>
+                            <div class="hover">
+                                    <h1>PLaylist</h1>
+                                    <img src="https://i0.wp.com/plus.cusica.com/wp-content/uploads/2018/08/Metallica.jpg?fit=1024%2C567&ssl=1" alt="">
+                                </div>
+                    </div>
+                    <div class="col-md-4">
+                            <h2 class="letra">Mood</h2>
+                            <div class="hover">
+                                    <h1>Mood</h1>
+                                    <img src="https://d1tpqy0yfxip6w.cloudfront.net/content/1862/responsive/03-1140.jpg" alt="">
+                                </div>
+                    </div>
+                    <div class="col-md-4">
+                            <h2 class="letra">Mixes</h2>
+                            <div class="hover">
+                                    <h1>Mixes</h1>
+                                    <img src="https://wallpapercave.com/wp/QR0YrYw.jpg" alt="">
+                                </div>
+                    </div>
+                </div>
+    </div>
+    
+    
+    
+    
+</section>
+<!--FOOTER-->
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Steel Music</small>
+        </div>
+      </footer>
 
 
+<!--fOOTER-->
 <!-- Modal -->
 <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -93,18 +137,21 @@
               </button>
             </div>
             <div class="modal-body">
-                    <button type="button" class="btn btn-lg btn-block btn1">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" id="fb" />
-                         Continuar con facebook</button>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block mb-3">
-                                <img src="http://pngimg.com/uploads/google/google_PNG19625.png" id="google" />
-                        Continuar con Google
-                    </button>
-                    <h4 class="text-center mb-3">o inicia con tu correo</h4>
-                    <input class="form-control" type="text" placeholder="Inicia con tu correo">
-                    <button type="button" class="btn btn-lg btn-block btn2">
-                        Iniciar sesión
-                    </button>
+                    <div class="container">
+                            <button type="button" class="btn btn-lg btn-block btn1">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" id="fb" />
+                                     Continuar con facebook</button>
+                                <button type="button" class="btn btn-secondary btn-lg btn-block mb-3">
+                                            <img src="http://pngimg.com/uploads/google/google_PNG19625.png" id="google" />
+                                    Continuar con Google
+                                </button>
+                                <h4 class="text-center mb-3">o inicia con tu correo</h4>
+                                <input class="form-control" type="text" placeholder="Inicia con tu correo">
+                                <button type="button" class="btn btn-lg btn-block btn2">
+                                    Iniciar sesión
+                                </button>
+                        </div>
+                   
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -124,11 +171,30 @@
               </button>
             </div>
             <div class="modal-body">
-              ...
+               
+                    <form>
+                            <div class="form-group">
+                                    <label for="exampleInputPassword1">Usuario</label>
+                                    <input type="text" class="form-control" id="usuario" placeholder="user">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Contraseña</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-group form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                          </form>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary">Submit</button>
             </div>
           </div>
         </div>

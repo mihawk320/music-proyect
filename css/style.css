@@ -17,6 +17,11 @@
 .btn2{
     background-color: #fd7521;
 }
+
+.letra{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
 #main .carousel-inner img {
     max-height: 70vh;
     object-fit: cover;
